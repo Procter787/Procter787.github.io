@@ -1,0 +1,86 @@
+h1 { 
+    padding: 60px;
+    text-align: center;
+    background: orangered;
+    background-image: url("https://media.istockphoto.com/photos/arches-national-park-picture-id1040754344?k=20&m=1040754344&s=612x612&w=0&h=a6v-CVreKMMxlQiWCNbl-WM4ue2CnwjeH8WMZQH88UI=");
+    background-position: bottom;
+    background-repeat: space;
+    background-size: initial;
+    color: black;
+    font-size: 40px;
+    
+}
+
+h2:hover, h3:hover, h4:hover, h5:hover { 
+    background-color: chocolate;
+    font-size: 40px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+img {
+    border-style: none;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+.sections li {
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+}
+.section_title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 36px;
+}
+.skill_container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw 0;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.skills_section  .icon_table {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding-left: 0;
+}
+.skill_img {
+    max-height: 100px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    font-size: 40px;
+}
